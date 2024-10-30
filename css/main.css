@@ -508,6 +508,17 @@ body {
         width: 100%;
     }
 
+	.letters .letter {
+	text-shadow: 25px 0 35px rgba(0 0 0 / .4);
+	position: relative;
+	margin-left: calc(var(--index) * -1.20);
+	right: calc(var(--index) * -1.20);
+	opacity: 0;
+	top: -5em;
+	transition: opacity var(--transition), top var(--transition);
+    font-size:60px;
+}
+
     .navbar a {
         font-size: 18px; /* Уменьшаем размер шрифта для ссылок */
     }
