@@ -321,6 +321,15 @@ body {
     box-shadow: 0 0 20px rgba(0, 135, 68, 0.5);
 }
 
+.navbar-item.active {
+    color: #333;
+    font-weight: bold;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
 .down-arrow {
     font-size: 50px; /* увеличиваем размер стрелки */
     text-align: center; /* выравнивание по центру */
